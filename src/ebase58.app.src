@@ -1,0 +1,14 @@
+{application, ebase58,
+ [{description, "base58 encoding/decoding library"},
+  {vsn, {cmd, "./ebump current"}},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/drvspw/ebase58.git"}]}
+ ]}.
